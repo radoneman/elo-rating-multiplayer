@@ -115,7 +115,7 @@ public class EloRating {
             actualScore = 0.5;
             // lose
         } else if (outcome.equals("-")) {
-            actualScore = 0.5;
+            actualScore = 0;
             // invalid outcome
         } else {
             return player1Rating;
